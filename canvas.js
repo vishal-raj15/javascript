@@ -14,7 +14,7 @@ function particle(x, y, radius, rate, color) {
     this.color = color;
     this.rate = rate;
     this.radian = Math.PI;
-    this.velocity = 0.05;
+    this.velocity = 0.01;
 
     this.update = () => {
 
