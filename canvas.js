@@ -19,8 +19,8 @@ function particle(x, y, radius, rate, color) {
     this.update = () => {
 
         this.radian += this.velocity * rate;
-        this.y = y + Math.sin(this.radian) * 100 * rate;
-        this.x = x + Math.cos(this.radian) * 310 * rate;
+        this.y = y + Math.sin(this.radian*rate) * 100 * rate;
+        this.x = x + Math.cos(this.radian*rate) * 310 * rate;
         this.draw();
     };
 
