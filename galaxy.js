@@ -68,6 +68,11 @@ function init() {
         particles.push(new particle(canvas.width / 2,
             canvas.height / 2, 2, 0.001 * i, 'white'));
     }
+    
+        for (let i = 1; i <= 500; i++) {
+        particles.push(new particle(canvas.width / 2,
+            canvas.height / 2, 2, 0.001 * i, 'white'));
+    }
     // console.log(particles);
 }
 
