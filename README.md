@@ -1,8 +1,5 @@
 # javascript
-
-a javascript project to create a solar system 
-the laws of physics are opposite for now
-
+index.html / galaxy.js
 https://vishal-raj15.github.io/javascript/
 
 -- UNDER_WORK.
